@@ -1,0 +1,48 @@
+/* Profile bio */
+
+.quick-edit textarea {
+  width: 100%;
+  height: 80px;
+  background-color: #f0f2f5;
+  text-align: center;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  outline: none;
+}
+.quick-edit textarea:focus {
+  border: 1px solid var(--blue-color) !important;
+  background-color: #ffffff;
+}
+.quick-edit p {
+  text-align: right;
+  margin: 0;
+}
+.quick-edit .quick-status {
+  display: flex;
+  justify-content: space-between;
+}
+.quick-edit .quick-status .status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.quick-edit .quick-status .status img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.quick-edit .quick-status .quick-btn button {
+  border: none;
+  padding: 7px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.modal-item .quick-edit .quick-status .quick-btn button:nth-child(2) {
+  background-color: var(--blue-color);
+  color: white;
+}
+
+.quick-edit .active-quick-save {
+  background-color: var(--blue-color);
+  color: #fff;
+}

@@ -1,0 +1,87 @@
+.right-sidebar {
+  position: fixed;
+  right: 92px;
+  .right-sidebar-wrap {
+    .sideber-profile {
+      li {
+        display: flex;
+      }
+      .sidebar-profile {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        width: 50px;
+        border-radius: 50px;
+        display: inline-block;
+      }
+    }
+  }
+  .sidebar-friend-request {
+    .friend_title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+.sidebar-friend-request .friend_item {
+  display: flex;
+}
+.sidebar-friend-request .friend_box {
+  width: 200px;
+  background-color: transparent;
+  box-shadow: none;
+}
+.sidebar-friend-request .friend_box .mutual_friend {
+  display: none;
+}
+.sidebar-friend-request .friend_item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.sidebar-friend-request .friend_box .action_button {
+  margin-top: 50px;
+  margin-left: -72px;
+  display: flex;
+  gap: 5px;
+}
+.sidebar-friend-request .friend_box h3 {
+  font-size: 15px !important;
+}
+.right-sidebar-contact {
+  ul {
+    li {
+      margin-top: 5px;
+      position: relative;
+      padding: 0px 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: #ddd;
+        padding: 0px 10px;
+      }
+      a {
+        &::after {
+          content: ".";
+          position: absolute;
+          color: #31a24c;
+          font-size: 74px;
+          font-weight: bold;
+          top: -40px;
+          left: 46px;
+          width: 50px;
+          height: 50px;
+          background-image: url("https://www.citypng.com/public/uploads/small/11641513654yqwbmgtfzw5izq0w4kyftdwzrvkc7pcfjf4tvby9jwmr0tongh73m8onebbl6py8f3vtijhjpl2k6mak62yedgjkpnoldcgalcnd.png");
+        }
+
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

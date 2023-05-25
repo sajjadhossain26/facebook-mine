@@ -1,0 +1,23 @@
+.post-text input {
+  width: 100%;
+  border: none;
+  min-height: 80px;
+}
+.prev-item.post img {
+  width: 100%;
+}
+.post-button {
+  width: 100%;
+}
+.upload-featured-prev .prev-item.post {
+  position: relative;
+  width: 100.3%;
+  margin: 5px;
+}
+.edit-featured-wrap .upload-featured-prev .prev-item.post img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+}

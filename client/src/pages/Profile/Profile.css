@@ -1,0 +1,149 @@
+.profile-photo {
+  position: relative;
+  cursor: pointer;
+}
+.profile-photo i {
+  position: absolute;
+  bottom: 17px;
+  right: 9px;
+  font-size: 21px;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 50%;
+}
+.profile-manage-zone {
+  padding: 20px;
+}
+.profile-manage-zone input {
+  display: none;
+}
+.profile-manage-zone label {
+  background-color: #e7f3ff;
+  width: 100%;
+  text-align: center;
+  padding: 08px 0px;
+  color: #3086f3;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.profile-manage-zone label:hover {
+  background-color: #d1dbe5;
+  border-radius: 5px;
+}
+.profile-manage-zone span {
+  margin-left: 08px;
+}
+.profile-crop-wrap {
+  padding: 20px;
+}
+.profile-crop-wrap .profile-description input {
+  width: 100%;
+  padding: 15px 20px;
+  padding-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.profile-crop-zone {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  margin: auto;
+}
+.photo-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+}
+.photo-slider button {
+  background-color: transparent;
+  border: none;
+  margin: 0px 20px;
+}
+.photo-slider input {
+  width: 100%;
+}
+.reactEasyCrop_CropArea.reactEasyCrop_CropAreaRound {
+  color: #f1f1f1b8 !important;
+}
+.photo-crop {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.photo-crop button {
+  border: none;
+  background-color: #e4e6eb;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.photo-crop button span {
+  margin-left: 10px;
+}
+.fb-cover-photo {
+  position: relative;
+}
+.photo-manage-popup {
+  position: absolute;
+  bottom: 12%;
+  right: 34px;
+  z-index: 99999999 !important;
+  background-color: #fff;
+  padding: 20px;
+  display: block;
+  overflow: visible;
+  border-radius: 5px;
+  box-shadow: 0px -1px 7px 0px #8d8d8d;
+}
+.photo-manage-popup input {
+  display: none;
+}
+.photo-manage-popup .photo-manage-btn label {
+  cursor: pointer !important;
+}
+
+/* Cover Pic Alert  */
+
+.cover-pic-alert-manage {
+  background-color: #00000097;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+.cover-pic-alert-manage i {
+  color: white;
+  margin-right: 10px;
+}
+.fb-profile-header .fb-cover-photo img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  object-fit: cover;
+}
+.fb-cover-photo .reactEasyCrop_CropArea {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 0 0 9999em;
+  color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  opacity: 0;
+}

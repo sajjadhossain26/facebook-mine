@@ -1,0 +1,23 @@
+.all_friend {
+  background-color: #f0f2f5;
+  padding: 100px 40px;
+  width: 100%;
+  margin-left: 350px;
+  .all_friend_wrap {
+    .friend_title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+
+    .All_friend-box {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  }
+}

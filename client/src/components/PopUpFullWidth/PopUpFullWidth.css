@@ -1,0 +1,33 @@
+.pop-up-full-width-wrap {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999999;
+}
+.pop-up-full-width-wrap .close-featured {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.pop-up-full-width-wrap .popup-info-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pop-up-full-width-wrap .popup-info-wrap .popup-info {
+  margin-top: 1%;
+  margin-right: 3%;
+}
+
+.pop-up-full-width-wrap .close-featured i {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}

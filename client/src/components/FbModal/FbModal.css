@@ -1,0 +1,71 @@
+.blur-box {
+  z-index: 9999999999999;
+}
+.fb-modal-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.fb-modal-popup {
+  width: 700px !important;
+
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+}
+.fb-modal-popup .fb-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0px;
+}
+
+.fb-modal-popup .fb-modal-popup .fb-modal-header h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  color: black;
+  margin: 0px;
+}
+.fb-modal-popup .fb-modal-header .back-wrap {
+  width: 35px;
+}
+.fb-modal-popup .fb-modal-header .close-wrap {
+  width: 35px;
+}
+.fb-modal-popup .fb-modal-header .close {
+  background-color: #e4e6eb;
+  color: rgb(74, 74, 74);
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 17px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-10px, 0px);
+}
+.fb-modal-popup .fb-modal-header .back {
+  background-color: #e4e6eb;
+  color: rgb(74, 74, 74);
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 17px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(+10px, 0px);
+}
+.fb-modal-popup .fb-modal-header i:hover {
+  background-color: #dadcdf;
+}
+.fb-modal-footer {
+  padding: 0px 20px;
+  margin: 10px 0px;
+}
